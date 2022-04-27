@@ -1,5 +1,5 @@
-from .institute import Institute
-from .main import Subject, Specialization
+from institute import Institute
+from main import Subject, Specialization
 import unittest
 
 class TestAddSubj(unittest.TestCase):
