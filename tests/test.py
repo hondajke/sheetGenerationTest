@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
-from main import *
-from institute import Institute
+from .main import *
+from .institute import Institute
 
 class TestGeneration(unittest.TestCase):
     

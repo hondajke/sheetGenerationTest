@@ -1,6 +1,6 @@
 import unittest
-from institute import Institute
-from main import Exam, Specialization, Subject
+from .institute import Institute
+from .main import Exam, Specialization, Subject
 from datetime import date
 
 class TestAddExam(unittest.TestCase):

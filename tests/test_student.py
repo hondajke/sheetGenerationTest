@@ -1,6 +1,6 @@
 import unittest
-from institute import Institute
-from main import Student
+from .institute import Institute
+from .main import Student
 
 class TestAddStudent(unittest.TestCase):
     

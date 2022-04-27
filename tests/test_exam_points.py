@@ -1,6 +1,6 @@
 import unittest
-from institute import Institute
-from main import ExamPoints, Student
+from .institute import Institute
+from .main import ExamPoints, Student
 from datetime import date
 
 class TestAddExamPoints(unittest.TestCase):

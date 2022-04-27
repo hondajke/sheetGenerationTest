@@ -1,6 +1,6 @@
 import unittest
-from institute import Institute
-from main import Specialization, Group
+from .institute import Institute
+from .main import Specialization, Group
 
 class TestAddGroup(unittest.TestCase):
     
