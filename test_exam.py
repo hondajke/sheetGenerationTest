@@ -108,5 +108,5 @@ class TestGetExam(unittest.TestCase):
         cls._inst = Institute()
         cls._inst.add_exam(cls._exam)
         
-    def test_1(self): # correct get
-        get_exam = self._inst.get_group
+    #def test_1(self): # correct get
+    #    get_exam = self._inst.get_group
