@@ -99,5 +99,14 @@ class TestAddExam(unittest.TestCase):
         
 class TestGetExam(unittest.TestCase):
     
-    def test_1(self):
-        pass
+    @classmethod
+    def setUpClass(cls):
+        cls._spec = Specialization('ФИИТ')
+        cls._subj = Subject('Б1', 'Основы программирования', 1, 172, spec)
+        cls._examDate = date(2021,2,12)
+        cls._exam = Exam(subj, examDate, '2021', "Эверстов Владимир Васильевич")
+        cls._inst = Institute()
+        cls._inst.add_exam(cls._exam)
+        
+    def test_1(self): # correct get
+        get_exam = self._inst.get_group
